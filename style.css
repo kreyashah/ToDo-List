@@ -1,0 +1,86 @@
+#todo-list {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#todo-list .delete-button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#todo-list h1 {
+  text-align: center;
+}
+
+#todo-list .input-container {
+  display: flex;
+}
+
+#todo-list input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+#todo-list button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#todo-list #add-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: transform 0.2s; /* Add the scale transition animation */
+}
+
+#todo-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#todo-list li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+ transition: opacity 0.3s; /* Add the fade-out transition animation */
+}
+
+#todo-list li input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+#todo-list li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+#todo-list .filter-buttons {
+  text-align: center;
+  margin: 10px 0;
+}
+
+#todo-list .filter-buttons button {
+  margin: 0 5px;
+  padding: 5px 10px;
+}
